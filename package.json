@@ -1,0 +1,12 @@
+{
+  "name": "wk-1-code-challenge",
+  "version": "1.0.0",
+  "description": "- Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below:",
+  "main": "marks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

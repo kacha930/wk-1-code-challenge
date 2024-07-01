@@ -7,8 +7,6 @@
         The function prompts the user for input, validates the input, and correctly maps the input to the appropriate grade.
         
         instructions : create a file, marks.js 
-         run npm install to install the necessary packages
-                       run npm test to check if your code is correct
                        use control flow to input condition of students marks
                        when you run your code with example student marks input as 48 the console should provide a grade of E as a fail.
 
@@ -32,9 +30,10 @@
            solution    :create a function, speedDetector, 
                         create three variables, one variable has the value for the speed limit = 70km/hr,
                         second variable calculates the speed limit for licence being suspended, = 12 and the other variable calculates the km/demerit points, which looks at for every 5km/hr = 1 points 
-                        create the first condition, i.e if the speed = 70 then it prints = ok, and returns zero points.else... 
+                        create the first condition, i.e if the speed <= 70 then it prints = ok, and returns zero points.else... 
                         create the variable for calculting the demerit points abpve the speed limit using math.floor() formula.
                         the lastt condition will check if the difference between the points to see if it is greater than the limit for getting your licence suspended = 12 points.
+
 
 
 ### Challenge 3: Net Salary Calculator (Toy Problem)
@@ -53,3 +52,19 @@
         instructions : Create Netsal.js file
                     input employee salary as an input to begin with (your choice of value)
 
+Instructions : Declare inputs for;
+             1. the basic salary 
+             2. Benefits 
+             
+              
+
+
+
+
+
+
+
+solutions    : create control flow to calculate the 
+               calcuate the  NET SALARY formula is equal to ,   
+               netSalary = grossSalary - paye - nhifDeductions - nssfDeductions - housingLevy;
+    
