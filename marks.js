@@ -1,21 +1,23 @@
-let studentsMarks = 60;
+function studentsMarks(){
+
+    const studentsMarks = prompt('Enter you marks here')
 
     if(studentsMarks > 79) {
-        console.log("A");
-        //creating range of students marks
+      //use .innerHTML to print what you want to be printed 
+       document.getElementById('results').innerHTML = "A";
+        
     }else if(studentsMarks >= 60 && studentsMarks <= 79 ) {
-          console.log("B");
-
+      document.getElementById('results').innerHTML = "B";
+          
     }else if(studentsMarks >= 49 && studentsMarks <= 59 ) {
-          console.log("C");
+      document.getElementById('results').innerHTML = "C";
+  
     
     }else if(studentsMarks >= 40 && studentsMarks <= 49 ) {
-          console.log("D");
+      document.getElementById('results').innerHTML = "D";
           
-    }else if(studentsMarks < 40) {
-    console.log("E");
-    
     }else{
-    console.log("F");
+      document.getElementById('results').innerHTML = "E";
+}
 }
 
